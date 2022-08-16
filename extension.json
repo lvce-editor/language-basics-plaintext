@@ -1,0 +1,12 @@
+{
+  "id": "builtin.language-basics-plaintext",
+  "name": "Language Basics Plaintext",
+  "description": "Provides syntax highlighting and bracket matching in Plaintext files.",
+  "languages": [
+    {
+      "id": "plaintext",
+      "extensions": [".txt"],
+      "tokenize": "src/tokenizePlaintext.js"
+    }
+  ]
+}
