@@ -14,18 +14,15 @@ export const initialLineState = {
   tokens: [],
 }
 
+export const hasArrayReturn = true
+
 /**
  * @param {string} line
  */
 export const tokenizeLine = (line) => {
-  const tokens = [
-    {
-      type: TokenType.Text,
-      length: line.length,
-    },
-  ]
+  const tokens = [TokenType.Text, line.length]
   return {
-    state: 0,
+    state: 1,
     tokens,
   }
 }
