@@ -8,5 +8,6 @@
       "extensions": [".txt"],
       "tokenize": "src/tokenizePlaintext.js"
     }
-  ]
+  ],
+  "repository": "https://github.com/lvce-editor/language-basics-plaintext"
 }
